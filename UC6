@@ -1,0 +1,27 @@
+/**
+ * TicTacToe
+ * UC6 places a player's symbol on the board at the given position.
+ * This use case focuses on uploading game stste.
+ */
+public class TicTacToe {
+
+    Static char [] [] board=newchar[3][3];
+
+    
+    /** 
+     * Entry point of the programplaces a sample move
+     * and prints the updated cell value
+     */
+
+    public static void main(String[] args) {
+        placeMove(row:0, col:0, symbol: 'X'):
+        System.out.println(board[0] [0]);
+    }
+    /**
+     * Updates the board by placing the given symbol at 
+     * the specified row and column
+     * Input: Row, Column, Symbol
+     * Hint:  Assume the move is already validated.
+     */
+    static void placemove(int row, int col, char symbol) {..
+}
