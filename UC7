@@ -1,0 +1,31 @@
+import java.util.Random;
+
+/**
+ * TicTacToe
+ * UC7 allows the computer to make a random valid move
+ * by reusing slot conversion and validation logic.
+ */
+public class TicTacToe {
+
+    static char[][] board = {
+        {'-', '-', '-'},
+        {'-', '-', '-'},
+        {'-', '-', '-'}
+    };
+    static char computerSymbol = '0';
+
+    /**
+     * Entry point of the program. Triggers the computer move.
+     */
+    public static void main(String[] args) {
+        computerMove();
+    }
+
+    /**
+     * Generates random slot values until a valid move is found,
+     * then places the computer symbol on the board.
+     */
+    static void computerMove() {
+        // Implementation details hidden in image
+    }
+}
