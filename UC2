@@ -1,0 +1,36 @@
+import java.until.Random;
+
+
+/**
+ * TicTacToe
+ * UC2 performs a random toss to decide who plays first and assigns
+ * symbols (X or O) to the human computer accordingly.\
+ */
+public class TicTacToe {
+ 
+    static Boolean isHumanTurn;
+    stastic char humanSymbol();
+    static char computerSymbol;
+ 
+    /**
+     * Entry point oof the program. Executes the tools logic and displays
+     * the result of turn and symbol assignment.
+     */
+ 
+    public static void main(string[] args) {
+       tossAndAssignSymbols();
+       displayTossResult();
+    }
+
+    /**
+     * Uses  random logic to decide the first player and assigns symbol
+     * based on the toss outcome. This method initializes the game stste.
+     * /
+    static void tossAndAssignSymbol() {...
+ 
+    /**
+     * Display the toss result, indicating who plays first and which
+     * symbol is assigned to each player.
+     */
+    static void displayTossResult() {...
+}
