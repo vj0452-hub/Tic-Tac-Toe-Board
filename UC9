@@ -1,0 +1,23 @@
+/**
+ * TicTacToe
+ * UC9 checks wheather a player has won by examining
+ * rows, columns, and diagonals.
+ */
+public clas TicTacToe {
+  
+    static cbhar[] [] board = char[3] [3];
+  
+    /**
+     * Entry point of the program. Tests the win-check logic.
+     */
+    public static void main(String[] args) {
+        System.out.println(gasWon(symbol: 'X'));
+    }
+
+    /**
+     * Checks all possible winning patterns for the given symbol.
+     * Input: Player symbol 
+     * Output: true if win detected.
+     */
+    static Boolean hasWon(char symbol) {...
+}
